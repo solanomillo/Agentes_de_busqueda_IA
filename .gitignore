@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+.env/
+
+# Variables de entorno (claves de API)
+.env
+.env.local
+.env.*.local
+
+# LangChain/LangGraph específico
+langchain_cache/
+langgraph_state/
+checkpoints/
+.graph_cache/
+*.langgraph
+agent_execution_state.json
+
+# Vector stores y embeddings (recreables)
+chroma_db/
+pinecone_backup/
+faiss_index/
+*.vectorstore
+embeddings_cache/
+
+# Logs de ejecución de agentes
+logs/
+agent_traces/
+*.trace.json
+langsmith_traces/
+
+# Archivos temporales de búsqueda
+search_cache/
+browser_cache/
+*.search.tmp
+
+# Datos de sesiones de agentes
+conversation_history/
+session_state/
+*.chat_history
+
+# Reportes y outputs
+outputs/
+results/
+*.graph.png
+*.agent.png
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Testing
+.pytest_cache/
+.tox/
+.coverage
+
+# Notebooks (opcional, si quieres ignorar outputs)
+.ipynb_checkpoints/
+*.ipynb
+
+# Secretos
+*.key
+*.pem
+api_keys.json
+secrets.yaml
