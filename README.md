@@ -1,7 +1,7 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/solanomillo/TelecomX_Churn_ML-/blob/main/TelecomX2_ML.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/solanomillo/Agentes_de_busqueda_IA/blob/main/Agentes_Langgraph_busquedas.ipynb)
 ![Python](https://img.shields.io/badge/python-3.x-blue.svg)
-![LangChain](https://img.shields.io/badge/LangChain-0.3+-green.svg)
-![LangGraph](https://img.shields.io/badge/LangGraph-0.2+-orange.svg)
+![LangChain](https://img.shields.io/badge/LangChain-1.3+-green.svg)
+![LangGraph](https://img.shields.io/badge/LangGraph-1.2+-orange.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.35+-red.svg)
 ![Gemini](https://img.shields.io/badge/Gemini-API-yellow.svg)
 
