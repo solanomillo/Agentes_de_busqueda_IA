@@ -2,7 +2,7 @@
 Inicialización centralizada del medelo LLM
 """
 from langchain_google_genai import ChatGoogleGenerativeAI
-from settings import settings
+from .settings import settings
 
 def get_llm():
     """

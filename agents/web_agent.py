@@ -1,7 +1,7 @@
 """
 Agente de Búsqueda en la web
 """
-from agent_factory import build_agent
+from .agent_factory import build_agents
 from tools.tavily_tools import tavily_tool
 
 CONTENT_AGENT_PROMPT = """
@@ -15,7 +15,7 @@ CONTENT_AGENT_PROMPT = """
 
 # Construye el agente de contenido con la herramienta de búsqueda web
 def get_web_agent():
-    web_agent = build_agent(
+    web_agent = build_agents(
         name="WebAgent",
         tools=[tavily_tool],
         system_prompt=CONTENT_AGENT_PROMPT

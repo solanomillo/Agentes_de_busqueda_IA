@@ -1,7 +1,7 @@
 """
 Agente Científico buscando información en la web
 """
-from agent_factory import build_agent
+from .agent_factory import build_agents
 from tools.arxiv_tools import buscar_arxiv
 
 CONTENT_AGENT_PROMPT ="""
@@ -15,7 +15,7 @@ Actúa como un asistente útil y especializado en investigación.
 """
 
 def get_scientific_agent():
-    scientific_agent = build_agent(
+    scientific_agent = build_agents(
         name="ScientificAgent",
         tools=[buscar_arxiv],
         system_prompt=CONTENT_AGENT_PROMPT
