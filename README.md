@@ -94,7 +94,7 @@ Responsable de formatear y consolidar la respuesta final entregada al usuario.
 
 | Tecnología | Versión / Uso |
 |------------|---------------|
-| Python | 3.12+ |
+| Python | 3.13+ |
 | LangChain | Orquestación de agentes |
 | LangGraph | Flujo multiagente |
 | Google Gemini | LLM principal |
@@ -149,8 +149,7 @@ Agentes_de_busqueda_IA/
 ## ⚙️ Instalación
 1. Clonar el repositorio
 ```bash
-git clone <url-del-repositorio>
-cd Agentes_de_busqueda_IA
+git clone https://github.com/solanomillo/Agentes_de_busqueda_IA.git
 ```
 2. Crear entorno virtual
 ```bash
